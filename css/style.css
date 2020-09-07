@@ -8,20 +8,19 @@ body {
 }
 
 .content{
+    width: 100%;
     display: flex;
+    margin-top: 80px;
     justify-content: center;
-    align-items: center;
 }
 
 .box {
     width: 300px;
     height: 300px;
     background: #28464D;
-    margin-top: 100px;
 }
 
 h1 {
-    width: 100%;
     text-align: center;
     color: #999999;
     margin-top: 50px;
@@ -29,7 +28,22 @@ h1 {
     font-size: 36pt;
 }
 
-/* input {
-    width: 20px;
-    height: 20px;
-} */
+input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.div-01, .div-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-01{
+    margin-right: 20px;
+}
+
+.div-02{
+    margin-left: 20px;
+}
